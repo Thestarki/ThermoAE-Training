@@ -1,0 +1,32 @@
+2024-09-10 20:43:11.807 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-10 20:52:29.259 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-10 21:00:53.584 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-11 06:39:11.109 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-11 06:53:36.239 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-11 06:59:19.928 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-11 06:59:57.000 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-11 07:00:18.929 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-11 07:01:51.992 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-11 07:04:40.392 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-11 07:06:14.247 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-11 07:06:24.838 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-11 07:08:39.442 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-11 07:11:21.763 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-11 08:47:29.294 | INFO     | modelo.ler_dados:ler_dados_da_db:17 - Carregando os dados da base de dados
+2024-09-11 12:54:42.782 | INFO     | modelo.ler_dados:ler_dados_da_db:52 - Carregando os dados da base de dados
+2024-09-11 13:05:55.564 | INFO     | modelo.ler_dados:ler_dados_da_db:52 - Carregando os dados da base de dados
+2024-09-11 14:09:23.230 | INFO     | modelo.ler_dados:ler_dados_da_db:52 - Carregando os dados da base de dados
+2024-09-11 14:18:16.240 | INFO     | modelo.ler_dados:ler_dados_da_db:52 - Carregando os dados da base de dados
+2024-09-11 14:48:53.184 | INFO     | modelo.ler_dados:ler_dados_da_db:53 - Carregando os dados da base de dados
+2024-09-11 14:54:28.052 | INFO     | modelo.ler_dados:ler_dados_da_db:51 - Carregando os dados da base de dados
+2024-09-11 15:04:09.298 | INFO     | modelo.ler_dados:ler_dados_da_db:53 - Carregando os dados da base de dados
+2024-09-19 13:53:15.596 | INFO     | modelo.ler_dados:ler_dados_da_db:54 - Carregando os dados de referencia da base de dados
+2024-09-19 13:53:18.210 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-19 13:53:18.216 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-19 13:53:18.384 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-19 13:53:22.002 | INFO     | modelo.criar_dataloaders:partir_treino_teste:107 - Dataframes de treino e teste escritos!
+2024-09-19 13:53:22.009 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:125 - Tranformando os dados para Tensores
+2024-09-19 13:53:22.536 | INFO     | modelo.criar_dataloaders:criar_dataloader:145 - Criando os Dataloaders
+2024-09-19 13:53:22.536 | INFO     | modelo.criar_dataloaders:criar_dataloader:157 - Dataloaders Criados!
+2024-09-19 13:53:23.446 | INFO     | __main__:<module>:47 - Comecando o treinamento!
+2024-09-19 13:54:10.147 | INFO     | __main__:<module>:71 - Treinamento concluido!
