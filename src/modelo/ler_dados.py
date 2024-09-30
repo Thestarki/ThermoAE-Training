@@ -11,7 +11,7 @@ import pandas as pd
 from loguru import logger
 from sqlalchemy import select
 
-from configs.DataConfig import engine
+from configs.config import engine
 from db.db_model import ReferenceData
 
 sys.path.append('src')

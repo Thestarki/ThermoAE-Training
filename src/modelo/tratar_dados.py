@@ -14,7 +14,7 @@ import pandas as pd
 from loguru import logger
 from sklearn.preprocessing import StandardScaler
 
-from configs.DataConfig import data_settings
+from configs.config import settings
 
 sys.path.append('src')
 sys.path.append('modelo')
@@ -35,8 +35,8 @@ def filtrar_horas_iniciais(dados) -> pd.DataFrame:
     Returns:
         DataFrame: Dados cortados
     """
-    logger.info(f'Primeiras {data_settings.horas_cortadas} foram descartadas')
-    return dados[data_settings.horas_cortadas:].reset_index(drop=True)
+    logger.info(f'Primeiras {settings.horas_cortadas} foram descartadas')
+    return dados[settings.horas_cortadas:].reset_index(drop=True)
 
 
 def selecionar_intervalo(dados):
@@ -54,9 +54,9 @@ def selecionar_intervalo(dados):
     Returns:
         DataFrame: Apenas os dados no intervalo selecionado.
     """
-    if data_settings.flag:
-        dados = dados[dados.index % data_settings.intervalo == 0]
-        logger.info(f'Selecionando dados a cada {data_settings.intervalo} min')
+    if settings.flag:
+        dados = dados[dados.index % settings.intervalo == 0]
+        logger.info(f'Selecionando dados a cada {settings.intervalo} min')
         return dados.reset_index(drop=True)
 
 

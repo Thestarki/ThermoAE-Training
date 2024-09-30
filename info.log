@@ -30,3 +30,157 @@
 2024-09-19 13:53:22.536 | INFO     | modelo.criar_dataloaders:criar_dataloader:157 - Dataloaders Criados!
 2024-09-19 13:53:23.446 | INFO     | __main__:<module>:47 - Comecando o treinamento!
 2024-09-19 13:54:10.147 | INFO     | __main__:<module>:71 - Treinamento concluido!
+2024-09-25 16:52:06.384 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-25 16:52:08.942 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-25 16:52:08.942 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-25 16:52:09.079 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-25 16:54:47.208 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-25 16:54:50.343 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-25 16:54:50.359 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-25 16:54:50.605 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-25 16:56:37.558 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-25 16:56:40.010 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-25 16:56:40.010 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-25 16:56:40.167 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-25 16:57:07.831 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-25 16:57:10.140 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-25 16:57:10.156 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-25 16:57:10.283 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-25 16:58:44.126 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-25 16:58:46.342 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-25 16:58:46.358 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-25 16:58:46.468 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-25 16:58:50.144 | INFO     | modelo.criar_dataloaders:partir_treino_teste:107 - Dataframes de treino e teste escritos!
+2024-09-25 16:58:50.144 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:125 - Tranformando os dados para Tensores
+2024-09-25 16:58:50.663 | INFO     | modelo.criar_dataloaders:criar_dataloader:145 - Criando os Dataloaders
+2024-09-25 16:58:50.663 | INFO     | modelo.criar_dataloaders:criar_dataloader:157 - Dataloaders Criados!
+2024-09-25 16:58:53.331 | INFO     | __main__:<module>:47 - Comecando o treinamento!
+2024-09-25 16:59:40.339 | INFO     | __main__:<module>:71 - Treinamento concluido!
+2024-09-25 17:02:22.130 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-25 17:02:24.375 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-25 17:02:24.391 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-25 17:02:24.501 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-25 17:02:28.157 | INFO     | modelo.criar_dataloaders:partir_treino_teste:107 - Dataframes de treino e teste escritos!
+2024-09-25 17:02:28.169 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:125 - Tranformando os dados para Tensores
+2024-09-25 17:02:28.670 | INFO     | modelo.criar_dataloaders:criar_dataloader:145 - Criando os Dataloaders
+2024-09-25 17:02:28.670 | INFO     | modelo.criar_dataloaders:criar_dataloader:157 - Dataloaders Criados!
+2024-09-25 17:02:29.516 | INFO     | __main__:<module>:47 - Comecando o treinamento!
+2024-09-25 17:03:16.192 | INFO     | __main__:<module>:71 - Treinamento concluido!
+2024-09-25 17:14:09.825 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-25 17:14:12.229 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-25 17:14:12.245 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-25 17:14:12.367 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-25 17:14:16.040 | INFO     | modelo.criar_dataloaders:partir_treino_teste:107 - Dataframes de treino e teste escritos!
+2024-09-25 17:14:16.054 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:125 - Tranformando os dados para Tensores
+2024-09-25 17:14:16.566 | INFO     | modelo.criar_dataloaders:criar_dataloader:145 - Criando os Dataloaders
+2024-09-25 17:14:16.566 | INFO     | modelo.criar_dataloaders:criar_dataloader:157 - Dataloaders Criados!
+2024-09-25 17:14:17.299 | INFO     | __main__:<module>:47 - Comecando o treinamento!
+2024-09-25 17:15:04.288 | INFO     | __main__:<module>:71 - Treinamento concluido!
+2024-09-26 17:00:11.554 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-26 17:00:14.372 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-26 17:00:14.404 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-26 17:00:14.640 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-26 17:00:18.659 | INFO     | modelo.criar_dataloaders:partir_treino_teste:107 - Dataframes de treino e teste escritos!
+2024-09-26 17:00:18.659 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:125 - Tranformando os dados para Tensores
+2024-09-26 17:00:19.240 | INFO     | modelo.criar_dataloaders:criar_dataloader:145 - Criando os Dataloaders
+2024-09-26 17:00:19.256 | INFO     | modelo.criar_dataloaders:criar_dataloader:157 - Dataloaders Criados!
+2024-09-26 17:00:20.655 | INFO     | __main__:<module>:47 - Comecando o treinamento!
+2024-09-26 17:01:09.240 | INFO     | __main__:<module>:71 - Treinamento concluido!
+2024-09-26 17:07:53.370 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-26 17:07:55.926 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-26 17:07:55.926 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-26 17:07:56.105 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-26 17:07:59.683 | INFO     | modelo.criar_dataloaders:partir_treino_teste:107 - Dataframes de treino e teste escritos!
+2024-09-26 17:07:59.683 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:125 - Tranformando os dados para Tensores
+2024-09-26 17:08:00.229 | INFO     | modelo.criar_dataloaders:criar_dataloader:145 - Criando os Dataloaders
+2024-09-26 17:08:00.229 | INFO     | modelo.criar_dataloaders:criar_dataloader:157 - Dataloaders Criados!
+2024-09-26 17:08:01.194 | INFO     | __main__:<module>:47 - Comecando o treinamento!
+2024-09-26 17:08:48.979 | INFO     | __main__:<module>:71 - Treinamento concluido!
+2024-09-26 17:14:27.401 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-26 17:14:29.683 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-26 17:14:29.699 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-26 17:14:29.819 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-26 17:14:33.428 | INFO     | modelo.criar_dataloaders:partir_treino_teste:107 - Dataframes de treino e teste escritos!
+2024-09-26 17:14:33.428 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:125 - Tranformando os dados para Tensores
+2024-09-26 17:14:33.975 | INFO     | modelo.criar_dataloaders:criar_dataloader:145 - Criando os Dataloaders
+2024-09-26 17:14:33.975 | INFO     | modelo.criar_dataloaders:criar_dataloader:157 - Dataloaders Criados!
+2024-09-26 17:14:34.837 | INFO     | __main__:<module>:47 - Comecando o treinamento!
+2024-09-26 17:15:22.123 | INFO     | __main__:<module>:71 - Treinamento concluido!
+2024-09-26 17:16:59.069 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-26 17:17:01.572 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-26 17:17:01.584 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-26 17:17:01.687 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-26 17:17:05.269 | INFO     | modelo.criar_dataloaders:partir_treino_teste:107 - Dataframes de treino e teste escritos!
+2024-09-26 17:17:05.284 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:125 - Tranformando os dados para Tensores
+2024-09-26 17:17:05.813 | INFO     | modelo.criar_dataloaders:criar_dataloader:145 - Criando os Dataloaders
+2024-09-26 17:17:05.813 | INFO     | modelo.criar_dataloaders:criar_dataloader:157 - Dataloaders Criados!
+2024-09-26 17:17:06.794 | INFO     | __main__:<module>:47 - Comecando o treinamento!
+2024-09-26 17:17:53.857 | INFO     | __main__:<module>:71 - Treinamento concluido!
+2024-09-27 08:50:17.486 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-27 08:50:20.028 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-27 08:50:20.044 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-27 08:50:20.170 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-27 08:50:23.909 | INFO     | modelo.criar_dataloaders:partir_treino_teste:107 - Dataframes de treino e teste escritos!
+2024-09-27 08:50:23.909 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:125 - Tranformando os dados para Tensores
+2024-09-27 08:50:24.459 | INFO     | modelo.criar_dataloaders:criar_dataloader:145 - Criando os Dataloaders
+2024-09-27 08:50:24.459 | INFO     | modelo.criar_dataloaders:criar_dataloader:157 - Dataloaders Criados!
+2024-09-27 08:50:25.532 | INFO     | __main__:<module>:47 - Comecando o treinamento!
+2024-09-27 08:51:12.302 | INFO     | __main__:<module>:71 - Treinamento concluido!
+2024-09-27 08:53:24.808 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-27 08:53:27.956 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-27 08:53:27.976 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-27 08:53:28.228 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-27 08:53:32.383 | INFO     | modelo.criar_dataloaders:partir_treino_teste:107 - Dataframes de treino e teste escritos!
+2024-09-27 08:53:32.399 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:125 - Tranformando os dados para Tensores
+2024-09-27 08:53:33.656 | INFO     | modelo.criar_dataloaders:criar_dataloader:145 - Criando os Dataloaders
+2024-09-27 08:53:33.687 | INFO     | modelo.criar_dataloaders:criar_dataloader:157 - Dataloaders Criados!
+2024-09-27 08:53:35.884 | INFO     | __main__:<module>:47 - Comecando o treinamento!
+2024-09-27 08:54:56.887 | INFO     | __main__:<module>:71 - Treinamento concluido!
+2024-09-30 08:36:00.335 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-30 08:36:02.943 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-30 08:36:02.959 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-30 08:36:03.101 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-30 08:36:06.835 | INFO     | modelo.criar_dataloaders:partir_treino_teste:107 - Dataframes de treino e teste escritos!
+2024-09-30 08:36:06.835 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:125 - Tranformando os dados para Tensores
+2024-09-30 08:36:07.370 | INFO     | modelo.criar_dataloaders:criar_dataloader:145 - Criando os Dataloaders
+2024-09-30 08:45:37.120 | INFO     | modelo.ler_dados:ler_dados_da_db:55 - Carregando os dados de referencia da base de dados
+2024-09-30 08:45:39.791 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-30 08:45:39.795 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-30 08:45:40.033 | INFO     | modelo.criar_dataloaders:partir_treino_teste:103 - Escrevendo os Dataframes de treino e teste
+2024-09-30 08:45:43.646 | INFO     | modelo.criar_dataloaders:partir_treino_teste:107 - Dataframes de treino e teste escritos!
+2024-09-30 08:45:43.662 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:125 - Tranformando os dados para Tensores
+2024-09-30 08:45:44.199 | INFO     | modelo.criar_dataloaders:criar_dataloader:145 - Criando os Dataloaders
+2024-09-30 08:45:44.199 | INFO     | modelo.criar_dataloaders:criar_dataloader:157 - Dataloaders Criados!
+2024-09-30 08:45:45.200 | INFO     | __main__:<module>:47 - Comecando o treinamento!
+2024-09-30 08:46:31.636 | INFO     | __main__:<module>:71 - Treinamento concluido!
+2024-09-30 09:23:09.339 | INFO     | modelo.ler_dados:ler_dados_da_db:54 - Carregando os dados de referencia da base de dados
+2024-09-30 09:33:23.494 | INFO     | modelo.ler_dados:ler_dados_da_db:54 - Carregando os dados de referencia da base de dados
+2024-09-30 09:33:25.912 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-30 09:33:25.927 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-30 09:33:26.085 | INFO     | modelo.criar_dataloaders:partir_treino_teste:101 - Escrevendo os Dataframes de treino e teste
+2024-09-30 09:33:29.700 | INFO     | modelo.criar_dataloaders:partir_treino_teste:105 - Dataframes de treino e teste escritos!
+2024-09-30 09:33:29.700 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:123 - Tranformando os dados para Tensores
+2024-09-30 09:33:30.250 | INFO     | modelo.criar_dataloaders:criar_dataloader:143 - Criando os Dataloaders
+2024-09-30 09:33:30.250 | INFO     | modelo.criar_dataloaders:criar_dataloader:155 - Dataloaders Criados!
+2024-09-30 09:33:31.323 | INFO     | __main__:<module>:45 - Comecando o treinamento!
+2024-09-30 09:34:18.036 | INFO     | __main__:<module>:69 - Treinamento concluido!
+2024-09-30 10:47:04.356 | INFO     | modelo.ler_dados:ler_dados_da_db:54 - Carregando os dados de referencia da base de dados
+2024-09-30 10:47:06.965 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-30 10:47:06.981 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-30 10:47:07.125 | INFO     | modelo.criar_dataloaders:partir_treino_teste:101 - Escrevendo os Dataframes de treino e teste
+2024-09-30 10:47:10.734 | INFO     | modelo.criar_dataloaders:partir_treino_teste:105 - Dataframes de treino e teste escritos!
+2024-09-30 10:47:10.734 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:123 - Tranformando os dados para Tensores
+2024-09-30 10:47:11.283 | INFO     | modelo.criar_dataloaders:criar_dataloader:143 - Criando os Dataloaders
+2024-09-30 10:47:11.283 | INFO     | modelo.criar_dataloaders:criar_dataloader:155 - Dataloaders Criados!
+2024-09-30 10:47:12.338 | INFO     | __main__:<module>:43 - Comecando o treinamento!
+2024-09-30 10:47:59.256 | INFO     | __main__:<module>:67 - Treinamento concluido!
+2024-09-30 10:52:06.723 | INFO     | modelo.ler_dados:ler_dados_da_db:54 - Carregando os dados de referencia da base de dados
+2024-09-30 10:52:09.409 | INFO     | modelo.tratar_dados:filtrar_horas_iniciais:38 - Primeiras 6000 foram descartadas
+2024-09-30 10:52:09.420 | INFO     | modelo.tratar_dados:scale_data:79 - Trazendo os dados para a mesma escala
+2024-09-30 10:52:09.682 | INFO     | modelo.criar_dataloaders:partir_treino_teste:101 - Escrevendo os Dataframes de treino e teste
+2024-09-30 10:52:13.361 | INFO     | modelo.criar_dataloaders:partir_treino_teste:105 - Dataframes de treino e teste escritos!
+2024-09-30 10:52:13.377 | INFO     | modelo.criar_dataloaders:chamando_return_tensor:123 - Tranformando os dados para Tensores
+2024-09-30 10:52:13.914 | INFO     | modelo.criar_dataloaders:criar_dataloader:143 - Criando os Dataloaders
+2024-09-30 10:52:13.914 | INFO     | modelo.criar_dataloaders:criar_dataloader:155 - Dataloaders Criados!
+2024-09-30 10:52:14.850 | INFO     | __main__:<module>:43 - Comecando o treinamento!
+2024-09-30 10:53:01.416 | INFO     | __main__:<module>:67 - Treinamento concluido!

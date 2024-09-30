@@ -12,7 +12,7 @@ from typing import Any
 import numpy as np
 from torch import nn, no_grad
 
-from configs.AEConfig import ae_settings
+from configs.config import settings
 
 sys.path.append('src')
 
@@ -36,12 +36,12 @@ class Autoencoder(nn.Module):
         super(Autoencoder, self).__init__()
 
         self.encoder = nn.Sequential(
-            nn.Linear(ae_settings.input_size, ae_settings.hidden_size),
+            nn.Linear(len(settings.variables), settings.hidden_size),
             nn.ReLU(True),
         )
 
         self.decoder = nn.Sequential(
-            nn.Linear(ae_settings.hidden_size, ae_settings.out_size),
+            nn.Linear(settings.hidden_size, len(settings.variables)),
         )
 
     def forward(self, x_tensor) -> Any:

@@ -13,9 +13,7 @@ import torch
 from loguru import logger
 from torch.utils.data import DataLoader, Dataset
 
-from configs.AEConfig import ae_settings
-from configs.DataConfig import data_settings
-from configs.PathConfig import path_settings
+from configs.config import settings
 
 sys.path.append('src')
 
@@ -66,7 +64,7 @@ class ReturnTensor(Dataset):
         Returns:
             torch.Tensor: _description_
         """
-        sample = self.dados[idx][0:len(data_settings.variables)]
+        sample = self.dados[idx][0:len(settings.variables)]
 
         return torch.from_numpy(sample.astype(np.float32))
 
@@ -93,17 +91,17 @@ def partir_treino_teste(dados) -> None:
     indices = torch.randperm(len(dados)).tolist()
 
     # Getting 70% of our data to train our model
-    train_size = int(data_settings.perc_treino * len(dados))
+    train_size = int(settings.perc_treino * len(dados))
     df_train = dados.iloc[indices[:train_size]]
 
     # Getting 30% of our data to test our model
-    test_size = int(data_settings.perc_teste * len(dados))
+    test_size = int(settings.perc_teste * len(dados))
     df_test = dados.iloc[indices[test_size:]]
 
     logger.info('Escrevendo os Dataframes de treino e teste')
     # Storing the information on a file
-    df_train.to_csv(path_settings.caminho_treino, index=False)
-    df_test.to_csv(path_settings.caminho_teste, index=False)
+    df_train.to_csv(settings.caminho_treino, index=False)
+    df_test.to_csv(settings.caminho_teste, index=False)
     logger.info('Dataframes de treino e teste escritos!')
 
 
@@ -123,8 +121,8 @@ def chamando_return_tensor() -> torch.Tensor:
         de teste da rede neural.
     """
     logger.info('Tranformando os dados para Tensores')
-    return ReturnTensor(path_settings.caminho_treino), ReturnTensor(
-        path_settings.caminho_teste,
+    return ReturnTensor(settings.caminho_treino), ReturnTensor(
+        settings.caminho_teste,
     )
 
 
@@ -145,13 +143,13 @@ def criar_dataloader(train_set, test_set) -> DataLoader:
     logger.info('Criando os Dataloaders')
     train_loader = DataLoader(
         train_set,
-        batch_size=ae_settings.batch_size,
+        batch_size=settings.batch_size,
         shuffle=True,
     )
 
     test_loader = DataLoader(
         test_set,
-        batch_size=ae_settings.batch_size,
+        batch_size=settings.batch_size,
         shuffle=True,
     )
     logger.info('Dataloaders Criados!')
